@@ -1,14 +1,14 @@
 export const portfolio = {
-  name: 'Sumit Suresh Helonde',
+  name: 'Sumit Helonde',
   shortName: 'Sumit',
   tagline: 'From Market Ideas to Automated Trading Systems.',
   heroHeadline: 'I BUILD. I TRADE. I AUTOMATE.',
   heroSub: 'Funded Trader • Algorithmic Trading • Trading Bot Developer • Full Stack Developer • IIoT Engineer',
   heroDesc: 'I combine trading experience, software engineering and automation to turn market ideas into working systems.',
   badges: [
+     { label: 'FULL STACK DEVELOPER', icon: '⌘' },
+     { label: 'ALGORITHMIC TRADING', icon: '⚡' },
     { label: 'FUNDED TRADER', icon: '●' },
-    { label: 'ALGORITHMIC TRADING', icon: '⚡' },
-    { label: 'FULL STACK DEVELOPER', icon: '⌘' },
   ],
   status: 'Currently Building & Learning',
   about: `I'm Sumit Suresh Helonde, a 3rd-year IIoT engineering student, funded trader and full-stack developer with 2+ years of experience in financial markets.\n\nMy journey combines two worlds — trading and technology.\n\nThrough trading, I developed a strong interest in market analysis, strategy development, risk management and systematic decision-making.\n\nThrough software development, I learned how to turn those ideas into real applications, automated systems, trading bots and analytical tools.\n\nI enjoy building technology that solves practical problems rather than simply creating projects for demonstration.`,
