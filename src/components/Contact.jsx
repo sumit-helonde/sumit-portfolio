@@ -19,11 +19,20 @@ export default function Contact() {
   const [sent, setSent] = useState(false)
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    setSent(true)
-    setTimeout(() => setSent(false), 3000)
-    setFormData({ name: '', email: '', message: '' })
+    try {
+      await fetch('https://formspree.io/f/mqpzrjlj', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
+      setSent(true)
+      setTimeout(() => setSent(false), 3000)
+      setFormData({ name: '', email: '', message: '' })
+    } catch (err) {
+      alert('Something went wrong. Please try again.')
+    }
   }
 
   return (
