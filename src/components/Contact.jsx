@@ -8,10 +8,10 @@ const fadeUp = {
 }
 
 const links = [
-  { icon: Mail, label: 'Email', href: 'mailto:hello@example.com', display: 'sumithelonde4@gmail.com', color: '#00e0db' },
-  { icon: Github, label: 'GitHub', href: 'https://github.com/sumit', display: 'https://github.com/sumit-helonde', color: '#fff' },
-  { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/sumit', display: 'https://www.linkedin.com/in/sumit-helonde-99589b264', color: '#3b82f6' },
-  { icon: Instagram, label: 'Instagram', href: 'https://instagram.com/sumit', display: 'sumit.__001x_', color: '#e4405f' },
+  { icon: Mail, label: 'Email', href: 'mailto:sumithelonde4@gmail.com', display: 'sumithelonde4@gmail.com', color: '#00e0db' },
+  { icon: Github, label: 'GitHub', href: 'https://github.com/sumit-helonde', display: 'https://github.com/sumit-helonde', color: '#fff' },
+  { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/sumit-helonde-99589b264', display: 'https://www.linkedin.com/in/sumit-helonde-99589b264', color: '#3b82f6' },
+  { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/sumit.__001x_?stkn=MWl3aXUwb3F1ZWpvbQ%3D%3D&utm_source=qr', display: 'sumit.__001x_', color: '#e4405f' },
   { icon: MapPin, label: 'Location', href: null, display: 'India', color: '#a78bfa' },
 ]
 
